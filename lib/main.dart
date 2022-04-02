@@ -1,3 +1,4 @@
+import 'package:admin_panel_responsive/layout.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         }),
         primaryColor: Colors.blue,
       ),
-      home: Container(),
+      home: SiteLayout(),
     );
   }
 }
